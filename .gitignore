@@ -1,0 +1,11 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编译产物
+*.class
+*.apk.idsig
+
+# 日志
+*.log
