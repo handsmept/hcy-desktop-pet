@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="btnDuck" />
+    <item type="id" name="btnFace" />
+    <item type="id" name="btnPerm" />
+    <item type="id" name="btnSkin" />
+    <item type="id" name="btnSoundDiag" />
+    <item type="id" name="btnToggle" />
+    <item type="id" name="sbAmp" />
+    <item type="id" name="sbHover" />
+    <item type="id" name="sbPerch" />
+    <item type="id" name="swSound" />
+    <item type="id" name="swWander" />
+    <item type="id" name="tvAmp" />
+    <item type="id" name="tvHover" />
+    <item type="id" name="tvPerch" />
+    <item type="id" name="tvStatus" />
+</resources>

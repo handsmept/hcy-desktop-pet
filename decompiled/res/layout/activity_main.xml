@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/bgPage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_card" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="86.0dip" android:layout_height="110.0dip" android:src="@drawable/pet_header" android:scaleType="fitCenter" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="14.0dip">
+                <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="@color/ink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/ink2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/app_sub" android:lineSpacingExtra="3.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="13.0sp" android:textColor="@color/ink2" android:id="@id/tvStatus" android:background="@drawable/bg_card" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:lineSpacingExtra="4.0dip" />
+        <Button android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/btnPerm" android:background="@drawable/btn_primary" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="14.0dip" android:text="① 授予「显示在其他应用上层」" />
+        <Button android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/btnToggle" android:background="@drawable/btn_primary" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="② 让他出现" />
+        <Button android:textSize="14.0sp" android:textColor="@color/navy" android:id="@id/btnFace" android:background="@drawable/btn_ghost" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="10.0dip" android:text="试一下换表情" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_card" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/ink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="调节" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/ink3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="大小分两处：悬空时看整体高度，扒在边上时只有脑袋露出来、看的是脑袋宽度。" android:lineSpacingExtra="2.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/ink" android:id="@id/tvHover" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" />
+            <SeekBar android:id="@id/sbHover" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/ink" android:id="@id/tvPerch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <SeekBar android:id="@id/sbPerch" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/ink" android:id="@id/tvAmp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <SeekBar android:id="@id/sbAmp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/ink3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="动得晃眼就往左拉，太安静就往右拉。" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_card" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/ink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="形象" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/ink3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="两套造型，点下面按钮切换" />
+            <Button android:textSize="15.0sp" android:textColor="@color/ink" android:id="@id/btnSkin" android:background="@drawable/btn_ghost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="形象：金发红披风　▸ 点击切换" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_card" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/ink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="自动溜达" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/ink3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="闲着的时候他自己爬来爬去（碰他、拖他、趴边时不动）" />
+            </LinearLayout>
+            <Switch android:id="@id/swWander" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_card" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/ink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="小黄鸭音效" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/ink3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="点他一下，吱一声" />
+            </LinearLayout>
+            <Switch android:id="@id/swSound" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:textSize="14.0sp" android:textColor="@color/ink" android:id="@id/btnDuck" android:background="@drawable/btn_ghost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="音效 1 / 8　▸ 点击试听" />
+            <Button android:textSize="14.0sp" android:textColor="@color/ink" android:id="@id/btnSoundDiag" android:background="@drawable/btn_ghost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="音效诊断 / 测试" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_card" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/ink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="怎么玩" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/ink2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="· 按住他，拖到任意位置\n· 拖到屏幕左右边缘松手 —— 他会扒在边上，只露一个脑袋看着你\n· 从边缘往外拖，回到悬空状态\n· 点他一下，换一个表情\n· 长按他，弹出「设置 / 关闭」" android:lineSpacingExtra="6.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/warnInk" android:background="@drawable/bg_warn" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="他要是过一会儿不见了，多半是被系统省电策略杀掉了。到系统设置里给他加上「自启动」和「后台运行无限制」。小米 / 华为 / OPPO / vivo 都需要这一步。" android:lineSpacingExtra="4.0dip" />
+        <View android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    </LinearLayout>
+</ScrollView>

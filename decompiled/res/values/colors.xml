@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#ffd43c3c</color>
+    <color name="bgPage">#fffcf3f3</color>
+    <color name="card">#ffffffff</color>
+    <color name="ink">#ff3c1616</color>
+    <color name="ink2">#ff8a5c5c</color>
+    <color name="ink3">#ffb48c8c</color>
+    <color name="line">#fff7e3e3</color>
+    <color name="navy">#ffb02525</color>
+    <color name="navyDeep">#ff6e1616</color>
+    <color name="warnBg">#fffff6e6</color>
+    <color name="warnInk">#ff8a6417</color>
+</resources>
